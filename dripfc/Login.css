@@ -1,0 +1,323 @@
+body{
+    margin: 0;
+}
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+  
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Inter";
+    line-height: 20px;
+}
+.nav{
+    padding-top: 30px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: ‘Trebuchet MS’, ‘Lucida Sans Unicode’, ‘Lucida Grande’, ‘Lucida Sans’, Arial, sans-serif;
+    font-weight: 400;
+}
+header {
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.navigation a {
+    color: #000000;
+    position: relative;
+    font-size: 1.1rem;
+    text-decoration: wavy;
+    font-weight: 700;
+    margin-left: 50px;
+}
+.logo {
+    color: #8E3535;
+    font-size: 2rem;
+    color: #8E3535;
+    user-select: none;
+    margin-left: -850px;
+}
+.navigation .btnLogin-popup {
+    font-family: ‘Trebuchet MS’, ‘Lucida Sans Unicode’, ‘Lucida Grande’, ‘Lucida Sans’, Arial, sans-serif;
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #070707;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1 rem;
+    color: rgb(2, 2, 2);
+    font-weight: 500;
+    margin-left: 75px;
+    transition: .5s;
+}
+.navigation .btnLogin-popup:hover {
+    background: #000000;
+    color: rgb(0, 0, 0);
+}
+.navigation a::after {
+    content: ‘’;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #000000;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.navigation a:hover:after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+header {
+    background: rgb(0, 0, 0);
+}
+body {
+background-color: #000000;
+}
+.Logo {
+    height: 150px;
+    width: 130px;
+    size: 100px;
+    margin-left: -450px;
+}
+#header-heading2 {
+    height: 300px;
+    width: 400px;
+    size: 250px;
+    align-items: center;
+    margin-top: 750px;
+    margin-left: 45px;
+}
+.Tutor_Bot .Logo_2 {
+    font-family: ‘Trebuchet MS’, ‘Lucida Sans Unicode’, ‘Lucida Grande’, ‘Lucida Sans’, Arial, sans-serif;
+    font-size: 150px;
+    color: #ffffff;
+    align-items: center;
+    margin-left: 525px;
+    margin-top: 250px;
+}
+.Tb {
+    font-family: ‘Trebuchet MS’, ‘Lucida Sans Unicode’, ‘Lucida Grande’, ‘Lucida Sans’, Arial, sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    margin-left: 50px;
+}
+footer {
+    background-color: #FDFCFC;
+}
+.footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+    margin-top: 200px;
+}
+.socialicons {
+    display: flex;
+    justify-content: center;
+}
+.socialicons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #FAF9F9;
+    margin: 10px;
+    border-radius: 50%;
+    size: 20px;
+}
+.socialicons a i {
+    font-size: 2em;
+    color: #020101;
+    opacity: 0.9;
+}
+/* Hover effects on Social Media Icons */
+.socialicons a:hover {
+    background-color: #000000;
+    color: white;
+    transition: 0.9;
+}
+.socialicons a:hover i {
+    color: #FDFCFC;
+    transition: 0.5s;
+}
+.footerNav {
+    margin: 30px 0;
+}
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a {
+    color: #010101;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footerNav ul li a:hover {
+    opacity: 3;
+}
+.footerBottom {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p {
+    color: #010101;
+}
+.designer {
+    opacity: 0.7;
+    text-transform: u;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px) {
+    .footerNav ul {
+        flex-direction: column;
+    }
+    .footerNav ul li {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
+.icon {
+    width: 100px;
+    height: 100px;
+  }
+.login-box {
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 200px;
+    margin-bottom: 300px;
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    font-size: 2em;
+    color: #000000;
+    text-align: center;
+}
+.input-box {
+    position: relative;
+    width: 310px;
+    margin: 30px 0;
+    border-bottom: 2px solid #000000;
+}
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #000000;
+    pointer-events: none;
+    transition: .5s;
+}
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -5px;
+}
+.input-box input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #ffffff;
+    padding: 0 35px 0 5px;
+}
+.input-box .icon {
+    position: absolute;
+    right: -75px;
+    color: black;
+    font-size: 1.2em;
+    line-height: 57px;
+}
+.remember-forgot {
+    margin: 15px 0 15px;
+    font-size: .9em;
+    color: #010101;
+    display: flex;
+    justify-content: space-between;
+}
+.remember-forgot label input {
+    margin-right: 3px;
+}
+.remember-forgot a {
+    color: #010101;
+    text-decoration: none;
+}
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+button {
+    width: 100%;
+    height: 40px;
+    background: #000000;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #FAF9F9;
+    font-weight: 500;
+}
+.register-link {
+    font-size: .9em;
+    color: #040404;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register-link p a {
+    color: #020202;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover {
+    text-decoration: underline;
+}
+.btnLogin-popup {
+    font-family: "Inter";
+    font-size: 25px;
+    color: #030202;
+}
+.btnLogin-popup2 {
+    font-family: "Inter";
+    font-size: 18px;
+    color: #030202;
+}
+homepage_title {
+    text-align: center;
+    font-family: "Inter";
+    font-size: 25px;
+}
